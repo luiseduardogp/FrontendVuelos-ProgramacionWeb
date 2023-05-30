@@ -1,0 +1,25 @@
+{
+  "name": "aplicacion_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "leaflet": "1.7.1",
+    "react": "17.0.1",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "17.0.1",
+    "react-leaflet": "^3.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "test": "error"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "web-vitals": "^3.3.1"
+  }
+}
