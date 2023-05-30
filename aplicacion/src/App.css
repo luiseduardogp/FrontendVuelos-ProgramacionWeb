@@ -1,0 +1,172 @@
+/* Estilos del login*/
+
+
+body  {
+  background-color: #1e2040
+}
+#caja_login {
+  width: 400px;
+  background: #1a1817;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  text-align: center;
+}
+
+/* Estilos generales*/
+#img {
+  height: 40px;
+}
+
+#navegacion {
+  background-color: #a3a3a3;
+}
+
+#caja {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.labels {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: "black";
+  font-size: large;
+}
+
+#activado {
+  display: block;
+}
+
+#desactivado {
+  display: none;
+}
+
+#cabecera_table {
+  background: #2a2c41;
+  color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+#body_table {
+  background: white;
+  border: 3px solid black;
+  color: black;
+}
+
+.card {
+  background-color: rgb(228, 224, 224);;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  color: #888;
+}
+
+/* Header */
+
+
+.header {
+  margin-bottom: 20px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%; /* Agregar ancho al formulario */
+  margin: 0 auto; /* Centrar el formulario horizontalmente */
+}
+
+.input-group {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center; /* Centrar verticalmente los elementos */
+}
+
+.input-group input {
+  border: none;
+  border-bottom: 1px solid #000000; /* Color de la línea inferior */
+  outline: none;
+  background: transparent;
+  padding: 5px;
+  width: 100%;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.input-group .col {
+  display: flex;
+  align-items: center; /* Centrar verticalmente el campo de entrada */
+}
+
+
+.search-button {
+  background-color: #FF5733; /* Color rojo anaranjado */
+  color: #FFFFFF; /* Color del texto */
+  padding: 10px 30px;
+  border: none;
+  border-radius: 1px;
+  margin-top: 10px; /* Cambiar de porcentaje a píxeles */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #FF3B00; /* Color rojo anaranjado más oscuro en el hover */
+}
+
+.title {
+  color: #7e077e; /* Color morado */
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#caja_buscador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 10%;
+  background-color: rgba(235, 236, 236, 0.774);
+  padding: 20px; /* Agregar relleno al contenedor */
+}
+
+
+  .card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .card-item {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .card-label {
+    font-weight: bold;
+  }
+  
+  .card-value {
+    margin-top: 5px;
+  }
+  
